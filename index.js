@@ -1,5 +1,5 @@
 //Node server which will handle socket io connections
-const io = require('socket.io')(8000);//io initialised
+const io = require('socket.io')(process.env.PORT);//io initialised
 const users = {};
 //socket.io is an instance of http, which listens to incoming events
 //io.on is an socket.io instance which listens to many socket connections
