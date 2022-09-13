@@ -1,4 +1,4 @@
-const socket = io('http://localhost:8000', { transports: ['websocket'] });
+const socket = io('https://chat-app102.herokuapp.com/', { transports: ['websocket'] });
 //connected to server via html script socket.io\socket.io.js
 
 //Get DOM elements in respective js variable 
