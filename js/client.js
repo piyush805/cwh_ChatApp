@@ -1,4 +1,4 @@
-const socket = io('http://0.0.0.0', { transports: ['websocket'] });
+const socket = io('http://0.0.0.0:'+process.env.PORT, { transports: ['websocket'] });
 //connected to server via html script socket.io\socket.io.js
 
 //Get DOM elements in respective js variable 
